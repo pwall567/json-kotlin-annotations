@@ -45,25 +45,25 @@ The `json-kotlin` library can be configured to use these annotations from other 
 
 ## Dependency Specification
 
-The latest version of the library is 1.0.1, and it may be obtained from the Maven Central repository.
+The latest version of the library is 1.0.2, and it may be obtained from the Maven Central repository.
 
 ### Maven
 ```xml
     <dependency>
       <groupId>net.pwall.json</groupId>
       <artifactId>json-kotlin-annotations</artifactId>
-      <version>1.0.1</version>
+      <version>1.0.2</version>
     </dependency>
 ```
 ### Gradle
 ```groovy
-    implementation 'net.pwall.json:json-kotlin-annotations:1.0.1'
+    implementation 'net.pwall.json:json-kotlin-annotations:1.0.2'
 ```
 ### Gradle (kts)
 ```kotlin
-    implementation("net.pwall.json:json-kotlin-annotations:1.0.1")
+    implementation("net.pwall.json:json-kotlin-annotations:1.0.2")
 ```
 
 Peter Wall
 
-2020-04-18
+2020-04-21
