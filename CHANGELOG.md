@@ -2,6 +2,13 @@
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [1.1.1] - 2020-12-13
+### Added
+- `travis.yml`
+### Changed
+- `pom.xml` - updated parent POM version for Travis compatibility
+- `README.md` - added badges, expanded documentation
+
 ## [1.1] - 2020-09-16
 ### Changed
 - `pom.xml` - updated parent POM version - switch to Kotlin 1.4.0

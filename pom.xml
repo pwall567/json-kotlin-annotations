@@ -5,7 +5,7 @@
 
   <groupId>net.pwall.json</groupId>
   <artifactId>json-kotlin-annotations</artifactId>
-  <version>1.1</version>
+  <version>1.1.1</version>
   <name>Annotations for Kotlin JSON serialization and deserialization</name>
   <description>Kotlin annotation classes to assist with auto-serialization and deserialization</description>
   <packaging>jar</packaging>
@@ -14,7 +14,7 @@
   <parent>
     <groupId>net.pwall.maven</groupId>
     <artifactId>maven-kotlin</artifactId>
-    <version>2.0</version>
+    <version>2.1</version>
   </parent>
 
   <properties>
