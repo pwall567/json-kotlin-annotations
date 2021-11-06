@@ -2,6 +2,10 @@
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/).
 
+## [1.2] - 2020-09-16
+### Changed
+- `pom.xml` - updated parent POM version - switch to Kotlin 1.5.20
+
 ## [1.1.1] - 2020-12-13
 ### Added
 - `travis.yml`

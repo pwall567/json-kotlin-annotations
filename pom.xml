@@ -5,7 +5,7 @@
 
   <groupId>net.pwall.json</groupId>
   <artifactId>json-kotlin-annotations</artifactId>
-  <version>1.1.1</version>
+  <version>1.2</version>
   <name>Annotations for Kotlin JSON serialization and deserialization</name>
   <description>Kotlin annotation classes to assist with auto-serialization and deserialization</description>
   <packaging>jar</packaging>
@@ -14,7 +14,7 @@
   <parent>
     <groupId>net.pwall.maven</groupId>
     <artifactId>maven-kotlin</artifactId>
-    <version>2.1</version>
+    <version>3.0</version>
   </parent>
 
   <properties>
@@ -50,9 +50,9 @@
 
   <pluginRepositories>
     <pluginRepository>
-      <id>jcenter</id>
-      <name>JCenter</name>
-      <url>https://jcenter.bintray.com/</url>
+      <id>central</id>
+      <name>Maven Central</name>
+      <url>https://repo1.maven.org/maven2/</url>
     </pluginRepository>
   </pluginRepositories>
 
@@ -87,16 +87,6 @@
       <plugin>
         <groupId>org.jetbrains.dokka</groupId>
         <artifactId>dokka-maven-plugin</artifactId>
-        <configuration>
-          <sourceDirectories>
-            <dir>src/main/kotlin</dir>
-          </sourceDirectories>
-          <externalDocumentationLinks>
-            <link>
-              <url>https://pwall.net/oss/jsonutil/</url>
-            </link>
-          </externalDocumentationLinks>
-        </configuration>
       </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
